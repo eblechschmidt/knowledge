@@ -1,0 +1,12 @@
+# zk uses a flat toml file for configuration
+# 
+# The editor can be speciefied by either full path or just the command:
+#   editor = "/usr/share/bin/nvim"
+#   editor = "nvim"
+# 
+# Multiple commands can be specified seperated by comma:
+#   editor = "nvim,code --wait,vim,nano"
+# zk tries to use editors in order of apperance if available.
+# Arguments can be passed as well. Currently the filename is passed as the last
+# argument.
+editor = "" 
