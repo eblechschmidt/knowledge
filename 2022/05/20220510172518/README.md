@@ -14,3 +14,4 @@ tag_columns_include = ["Master_Host", "Channel_Name"]
 
 It only worked explicitely stating `tcp` as telegraf was not to determine protocol otherwise.
 
+  #telegraf #monitoring #mysql #replication
