@@ -9,4 +9,4 @@
 # zk tries to use editors in order of apperance if available.
 # Arguments can be passed as well. Currently the filename is passed as the last
 # argument.
-editor = "" 
+editor = "nvim" 
