@@ -9,7 +9,7 @@ dsn = "username:password@tcp(mysqlserver:3307)/"
 [[inputs.sql.query]]
 query="SHOW SLAVE STATUS"
 measurement = "slave_status"
-tag_columns_include = ["Master_Host"]
+tag_columns_include = ["Master_Host", "Channel_Name"]
 ```
 
 It only worked explicitely stating `tcp` as telegraf was not to determine protocol otherwise.
